@@ -5,20 +5,33 @@ body {
   color: #707070;
 }
 
+/*
+*   Layout
+*/
 .container {
   width: 90%;
   max-width: 980px;
   margin: 0 auto;
 }
 
-.yellow-text {
-  color: #B7832F;
+.columns {
+  display: flex;
+  margin: 1em 0;
+}
+
+.col-bg {
+  background-color: #312614;
+  padding: 1em;
 }
 
 h1{
   font-size: 3rem;
   text-align: center;
   color: #312614;
+}
+
+h1 span {
+  color: #B7832F;
 }
 
 h2 {
@@ -31,3 +44,4 @@ img {
   padding: 0;
   width: 100%;
 }
+
